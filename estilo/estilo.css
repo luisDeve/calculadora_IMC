@@ -1,0 +1,24 @@
+:root{
+    --color-texto:#1E2022;
+    --fondoDatos:#73E2BF;
+    --fondoDatostexto:#063842;
+    --color-fondo:#73D9C6;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  var(--color-fondo);
+  }
+  .container__titulos{
+    padding-left: 3rem;
+  }

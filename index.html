@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="estilo/estilo.css" />
+  <link rel="stylesheet" href="estilo/organimos.css" />
+  <link rel="stylesheet" href="estilo/normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="container">
+    <div class="organismo">
+      <div class="container__titulos">
+        <h1 class="container_titulo">Bienvenido a calculo IMC</h1>
+        <p class="container_descripcion">
+          Para un cálculo correcto necesitamos algo de información básica sobre ti
+        </p>
+        <form class="formulario" action="">
+          <label for="">Peso</label>
+          <Input class="input" type="number" name="username" id="inputPeso"></Input>
+          <label for="">Altura</label>
+          <Input class="input" type="text" id="inputAltura"></Input>
+          <label for="">sexo</label>
+          <select name="sexo" id="genero">
+            <option>Hombre</option>
+            <option selected>Mujer</option>
+          </select>
+          <button class="boton" type="submit">Calculcar Imc</button>
+        </form>
+      </div>
+      <div class="container_datos">
+      </div>
+      <div class="container__informacion-nota">
+        <div class="container_informacion-resultado">
+          <h2 class="container__nota">Nota: es importante recordar que el cálculo del IMC no toma en consideración su
+            composición corporal, es decir, si posee masa muscular, la contextura o si tiene retención de líquidos, por
+            ejemplo. Por este motivo, lo ideal es consultar un nutricionista para que realice una evaluación
+            personalizada. </h2>
+            <div class="container__recomendacion">
+              <h3 class="container__recomendacionTitulo">Recomendacion</h3>
+              <div class="container__recomendacion-grid">
+                
+              </div>
+            </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  <script type="module" src="app/datos.js"></script>
+  <script type="module" src="app/app.js"></script>
+
+
+</body>
+
+</html>
